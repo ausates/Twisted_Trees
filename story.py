@@ -21,7 +21,7 @@ def intro():
     d_p("First, we need to build your character.")
     q_2 = ""
     while q_2 == "":
-        q_2 = input("Do you know about character races in RPG? (yes/ no): ").lower()
+        q_2 = input("Do you know about character races in Twisted Tree? (yes/ no): ").lower()
         if q_2 == "yes":
             print("Great, we will skip the races intro.")
         elif q_2 == "no":
@@ -32,7 +32,7 @@ def intro():
     q_3 = ""
     while q_3 == "":
         d_p("Okay, final question.")
-        q_3 = input("Do you know about character classes and attributes in RPG? (yes/no): ").lower()
+        q_3 = input("Do you know about character classes and attributes in Twisted Tree? (yes/no): ").lower()
         if q_3 == "yes":
             print("great, we will skip the classes intro, and build your character.")
         elif q_3 == "no":
